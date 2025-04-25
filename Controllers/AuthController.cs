@@ -27,7 +27,7 @@ public class AuthController : ControllerBase
 
         // Generate JWT Token
         var tokenHandler = new JwtSecurityTokenHandler();
-        var key = Encoding.ASCII.GetBytes("ThisIsASecretKeyForJwtAuth");
+        var key = Encoding.ASCII.GetBytes("f9A4v7s8B1#dX!qWzL5eP6rT8uY0jKmN"); 
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new ClaimsIdentity(new[]

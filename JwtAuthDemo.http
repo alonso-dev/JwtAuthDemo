@@ -1,6 +1,7 @@
-@JwtAuthDemo_HostAddress = http://localhost:5258
+POST http://localhost:5258/api/auth/login
+Content-Type: application/json
 
-GET {{JwtAuthDemo_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
+{
+  "email": "test@email.com",
+  "password": "password123"
+}
